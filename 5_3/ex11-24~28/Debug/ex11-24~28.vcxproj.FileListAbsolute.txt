@@ -1,0 +1,2 @@
+C:\Users\최재인\git\c++\5_3\ex11-24~28\Debug\ex11-24~28.exe
+C:\Users\최재인\git\c++\5_3\ex11-24~28\Debug\ex11-24~28.pdb
