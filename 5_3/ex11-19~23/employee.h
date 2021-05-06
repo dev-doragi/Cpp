@@ -5,7 +5,7 @@
 #define EMPLOYEE_H
 #include "name.h"
 
-class Employee
+class Employee 
 {
 private:
     Name name;
