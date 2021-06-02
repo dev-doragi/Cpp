@@ -1,2 +1,4 @@
 C:\Users\최재인\git\c++\5_10\ex12-22~29\Debug\ex12-22~30.exe
 C:\Users\최재인\git\c++\5_10\ex12-22~29\Debug\ex12-22~30.pdb
+C:\Users\user\git\Cpp\5_10\ex12-22~29\Debug\ex12-22~30.exe
+C:\Users\user\git\Cpp\5_10\ex12-22~29\Debug\ex12-22~30.pdb

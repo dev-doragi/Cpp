@@ -32,7 +32,7 @@ double Ellipse::getArea() const
 double Ellipse::getPerimeter() const
 {
     double temp = (radius1 * radius1 + radius2 * radius2) / 2;
-    return (2 * 3.14 * temp);
+    return (2 * 3.14 * sqrt(temp));
 }
 // isValid private ¸â¹ö ÇÔ¼ö
 bool Ellipse::isValid() const

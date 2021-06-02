@@ -1,0 +1,2 @@
+C:\Users\user\git\Cpp\Inheritance\Debug\Inheritance.exe
+C:\Users\user\git\Cpp\Inheritance\Debug\Inheritance.pdb
