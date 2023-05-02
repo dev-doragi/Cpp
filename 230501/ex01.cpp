@@ -11,7 +11,7 @@ int main()
 	char op;
 	char ops[5] = { '+', '-', '*', '/', '%' };
 
-	input1 = getInput();
+	input1 = getInput();    
 	input2 = getInput();
 	cout << "p(Á¦°ö), x(Ãë¼Ò), r(·£´ı¿¬»ê) ";
 	op = getOperator();
