@@ -21,9 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0156a22e-a2e6-4973-ac4c-edc2c4760f9f}</ProjectGuid>
-    <RootNamespace>My230504</RootNamespace>
+    <ProjectGuid>{57af34fb-6151-4582-a2a6-2932c6a973c4}</ProjectGuid>
+    <RootNamespace>My230510</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>MBTI</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -139,12 +140,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h" />
+    <ClCompile Include="MBTI.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ex.cpp" />
-    <ClCompile Include="structPtr.cpp" />
-    <ClCompile Include="test.cpp" />
+    <ClInclude Include="Header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

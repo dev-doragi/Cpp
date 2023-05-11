@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0156a22e-a2e6-4973-ac4c-edc2c4760f9f}</ProjectGuid>
-    <RootNamespace>My230504</RootNamespace>
+    <ProjectGuid>{29781840-0b86-4cb2-bb22-af35a162a18f}</ProjectGuid>
+    <RootNamespace>baekjoon</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,12 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="ex.cpp" />
-    <ClCompile Include="structPtr.cpp" />
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="1002.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
