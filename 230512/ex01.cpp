@@ -52,8 +52,6 @@ int main()
 				}
 			}
 			cnt--;
-
-			printf("삭제가 완료되었습니다.\n");
 		}
 		else if (input == 4) {
 			printf("장비를 정지합니다.\n");
