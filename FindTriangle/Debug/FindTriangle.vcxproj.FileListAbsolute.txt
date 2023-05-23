@@ -1,1 +1,2 @@
 C:\Projects\Cpp\FindTriangle\Debug\FindTriangle.exe
+C:\Users\최재인\git\c++\FindTriangle\Debug\FindTriangle.exe
