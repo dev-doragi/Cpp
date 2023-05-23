@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ex01.cpp" />
     <ClCompile Include="Mob.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
