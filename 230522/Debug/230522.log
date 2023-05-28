@@ -1,2 +1,2 @@
-﻿  ex01.cpp
-  230522.vcxproj -> C:\Projects\Cpp\230522\Debug\230522.exe
+﻿MSVCRTD.lib(exe_main.obj) : error LNK2019: _main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Projects\Cpp\230522\Debug\230522.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
