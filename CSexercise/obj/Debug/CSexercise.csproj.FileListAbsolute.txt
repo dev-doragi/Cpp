@@ -1,0 +1,7 @@
+C:\Projects\Cpp\CSexercise\bin\Debug\CSexercise.exe.config
+C:\Projects\Cpp\CSexercise\bin\Debug\CSexercise.exe
+C:\Projects\Cpp\CSexercise\bin\Debug\CSexercise.pdb
+C:\Projects\Cpp\CSexercise\obj\Debug\CSexercise.csproj.AssemblyReference.cache
+C:\Projects\Cpp\CSexercise\obj\Debug\CSexercise.csproj.CoreCompileInputs.cache
+C:\Projects\Cpp\CSexercise\obj\Debug\CSexercise.exe
+C:\Projects\Cpp\CSexercise\obj\Debug\CSexercise.pdb

@@ -1,0 +1,2 @@
+C:\Projects\Cpp\Tetris\Debug\Tetris.exe
+C:\Users\최재인\git\c++\Tetris\Debug\Tetris.exe
