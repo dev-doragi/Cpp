@@ -153,16 +153,16 @@ public:
 	bool canRotate() {
 		for (int i = 0; i < USERBLOCK_SIZE; i++) {
 			for (int j = 0; j < USERBLOCK_SIZE; j++) {
-				if (userBlock[i][j] == 1 && j + blockX - 1 < 0)
+				if (userBlock[i][j] == 1 && j + blockX - 1 < 0) // 왼쪽 벽 끝
 					return false;
-				if (userBlock[i][j] == 1 && j + blockX + 1 > GRID_WIDTH - 1)
+				if (userBlock[i][j] == 1 && j + blockX + 1 > GRID_WIDTH - 1) // 오른쪽 벽 끝
 					return false;
 			}
 		}
 		return true;
 	}
 
-	bool isLineFilled(int y) {
+	bool isLineFilled(int y) {  
 		for (int i = 0; i < GRID_WIDTH; i++) {
 			if (gameGridData[y][i] == 0) return false;
 		}
