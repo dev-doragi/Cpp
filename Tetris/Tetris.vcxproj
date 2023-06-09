@@ -139,11 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Display.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="TetrisHelper.h" />
+    <ClInclude Include="GameEngine.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Display.cpp" />
+    <ClCompile Include="GameEngine.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="TetrisHelper.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

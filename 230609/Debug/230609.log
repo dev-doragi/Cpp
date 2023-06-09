@@ -1,0 +1,4 @@
+﻿  ex01.cpp
+C:\Projects\Cpp\230609\ex01.cpp(44,21): warning C4018: '<': signed/unsigned mismatch
+C:\Projects\Cpp\230609\ex01.cpp(56,21): warning C4018: '<': signed/unsigned mismatch
+  230609.vcxproj -> C:\Projects\Cpp\230609\Debug\230609.exe

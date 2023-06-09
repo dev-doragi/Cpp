@@ -1,5 +1,9 @@
 #include "Header.h"
+#include "Display.h"
+#include "GameEngine.h"
 #define INTERVAL  1.0 / 60.0
+
+int displayData[GRID_HEIGHT][GRID_WIDTH] = { 0, };
 
 int main()
 {
