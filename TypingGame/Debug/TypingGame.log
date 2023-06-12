@@ -1,0 +1,7 @@
+﻿  TypingSystem.cpp
+C:\Projects\Cpp\TypingGame\TypingSystem.cpp(19,20): warning C4018: '<': signed/unsigned mismatch
+C:\Projects\Cpp\TypingGame\TypingSystem.cpp(134,109): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+C:\Projects\Cpp\TypingGame\main.cpp(6,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  TypingGame.vcxproj -> C:\Projects\Cpp\TypingGame\Debug\TypingGame.exe
