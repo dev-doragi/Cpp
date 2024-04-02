@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
+#include <stdio.h> 
 
-// фрдиюле╘╥н ╠╦гЖго╢б гоЁКюлюг е╬ ╫г╫ю
+// М▄╛Л╪─Л²╢М│╛К║° Й╣╛М≤└М∙≤К┼■ М∙≤К┘╦Л²╢Л²≤ М┐▒ Л▀╓Л┼╣
 int cnt = 0;
 void movePancake(int pancake, char dishA, char dishB, char dishC);
 
@@ -9,25 +9,25 @@ int main()
 {
 	int pancake;
 
-	printf("фрдиюле╘юг ╟Ё╪Ж╦╕ ют╥бгь╨╦╪╪©Д..");
+	printf("М▄╛Л╪─Л²╢М│╛Л²≤ Й╟°Л┬≤К╔╪ Л·┘К═╔М∙╢КЁ╢Л└╦Л ■..");
 	scanf("%d", &pancake);
 
-	printf("фрдиюле╘╦╕ ©е╠Б╢б ╟За╓\n");
+	printf("М▄╛Л╪─Л²╢М│╛К╔╪ Л≤╝Й╦╟К┼■ ЙЁ╪Л═∙\n");
 	movePancake(pancake, 'A', 'B', 'C');
-	printf("фрдиюле╘╟║ ©е╟эаЬ х╫╪Ж: %d", cnt);
+	printf("М▄╛Л╪─Л²╢М│╛Й╟─ Л≤╝Й╡╗Л╖└ М ÷Л┬≤: %d", cnt);
 
 	return 0;
 }
 
 void movePancake(int pancake, char dishA, char dishB, char dishC) {
 	if (pancake == 1) {
-		printf("фрдиюле╘╦╕ %cа╒╫ц©║╪╜ %cа╒╫ц╥н юл╣©го©╢╫ю╢о╢ы.\n", dishA, dishC);
+		printf("М▄╛Л╪─Л²╢М│╛К╔╪ %cЛ═▒Л▀°Л≈░Л└° %cЛ═▒Л▀°К║° Л²╢К▐≥М∙≤Л≤─Л┼╣К▀┬К▀╓.\n", dishA, dishC);
 		cnt++;
 		return;
 	}
 
 	movePancake(pancake - 1, dishA, dishC, dishB);
-	printf("фрдиюле╘╦╕ %cа╒╫ц©║╪╜ %cа╒╫ц╥н юл╣©го©╢╫ю╢о╢ы.\n", dishA, dishC);
+	printf("М▄╛Л╪─Л²╢М│╛К╔╪ %cЛ═▒Л▀°Л≈░Л└° %cЛ═▒Л▀°К║° Л²╢К▐≥М∙≤Л≤─Л┼╣К▀┬К▀╓.\n", dishA, dishC);
 	movePancake(pancake - 1, dishB, dishA, dishC);
 	cnt++;
 }
